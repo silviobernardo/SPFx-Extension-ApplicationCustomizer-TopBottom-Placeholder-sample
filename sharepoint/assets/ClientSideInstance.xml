@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HelloWorld"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="bd5e4ad1-e256-4200-b3d7-d56d1ae6049e"
+        Properties="{&quot;myAlert&quot;:&quot;This is a cool alert!&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

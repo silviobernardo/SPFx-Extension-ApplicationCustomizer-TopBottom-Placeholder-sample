@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://findmoreconsult.sharepoint.com/sites/silviobernardo/SitePages/myPage.aspx",
+      "customActions": {
+        "bd5e4ad1-e256-4200-b3d7-d56d1ae6049e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://findmoreconsult.sharepoint.com/sites/silviobernardo/SitePages/myPage.aspx",
+      "customActions": {
+        "bd5e4ad1-e256-4200-b3d7-d56d1ae6049e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}
