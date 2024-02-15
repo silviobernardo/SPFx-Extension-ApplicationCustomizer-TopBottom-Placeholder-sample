@@ -16,7 +16,7 @@ This sample is an extension to add TOP and BOTTOM SharePoint page placeholder
 ## HOW TO RUN
 
 1. Open repository folder on Visual Studio Code
-2. Go to "config/serve.json" file and uptate "pageUrl" value to your SharePoint URL
+2. Go to "config/serve.json" file and update "pageUrl" value to your SharePoint URL
 3. Open a terminal
 4. Run "npm install"
 5. Run "gulp trust-dev-cert"
